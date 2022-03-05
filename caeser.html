@@ -1,0 +1,45 @@
+  <!DOCTYPE html>
+  <html lang -'en'>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Modified caeser</title>
+        <link rel="stylesheet" href="css/caeser.css">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+      
+      
+        <h1>CAESER Encryption</h1>
+        
+        <fieldset>
+          <legend><span class="number">1</span>Enter your text</legend>
+          <label for="name">Text please:</label>
+          <input type="text" id="ctext" name="text">
+          
+          
+          <label for="password">Key please:</label>
+          <input type="password" id="ckey" name="key">
+          
+          <label>Location:</label>
+          <input type="radio" id="pat" value="OFfice" name="location"><label for="pat" class="light">Work</label><br>
+          <input type="radio" id="ban" value="hoMe" name="location"><label for="ban" class="light">Home</label><br>
+          <input type="radio" id="del" value="govT" name="location"><label for="del" class="light">Govt.</label><br>
+          <input type="radio" id="mum" value="onetIme" name="location"><label for="mum" class="light">One time</label><br>
+          <input type="radio" id="goa" value="sociaL" name="location"><label for="goa" class="light">Social Media</label><br>
+          <input type="radio" id="mum" value="multimedIa" name="location"><label for="mum" class="light">Multimedia</label>
+        </fieldset>
+        
+        <fieldset>
+          <legend><span class="number">2</span>Your Output</legend>
+          <label for="bio">Your encrypted/decrypted key:</label>
+          <textarea id="out" name="result"></textarea>
+        </fieldset>
+       
+        <button onClick="start()">Start</button>
+      
+      <script src="js/caeser.js">      </script> 
+    </body>
+</html>
